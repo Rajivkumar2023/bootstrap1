@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap templates 2</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- bootstrap cdn link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+     <!-- fontawesome cdn link -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+     <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap" rel="stylesheet">
+
+
+
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="100">  
+<nav class="navbar navbar-expand-md bg-light navbar-light my-menu sticky-top">
+    <div><a href="#" class="navbar-brand"><img src="rajiv_logo_png.png" height="50px" alt="logo"></a></div>
+    <i class="fa-solid fa-bars navbar-toggler" data-toggle="collapse" data-target="#menu"></i>
+    <div class="collapse navbar-collapse text-center" id="menu">
+    <ul class="navbar-nav">
+        <li class="nav-item"> <a href="#home" class="nav-link active">Home</a></li>
+        <li class="nav-item"> <a href="#service" class="nav-link">Services</a></li>
+        <li class="nav-item"> <a href="#clients" class="nav-link">Clients</a></li>
+        <li class="nav-item"> <a href="#pricing" class="nav-link">Pricing</a></li>
+        <li class="nav-item"> <a href="#contact" class="nav-link">Contact</a></li>
+    </ul>
+
+    <ul class="navbar-nav ml-auto text-right">
+        <li class="nav-item"> <a href="#" class="nav-link"><i class="fa-brands fa-facebook"></i></a></li>
+        <li class="nav-item"> <a href="#" class="nav-link"><i class="fa-brands fa-twitter"></i></a></li>
+        <li class="nav-item"> <a href="#" class="nav-link"><i class="fa-brands fa-linkedin"></i></a></li>
+    </ul>
+    </div>  <!-- collapse div  end-->   
+</nav>
+<!-- home section start -->
+<div class="jumbotron bg-light text-center mb-0" id="home">
+    <h1 class="heading-font">This is my bootstrap project</h1>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Error eaque sapiente hic culpa ut similique expedita rem neque doloribus eius natus quasi, excepturi assumenda nostrum vero a totam qui consectetur ipsum. Harum facere quisquam esse earum reiciendis consequuntur alias dicta neque deserunt molestias officia quod ea voluptatibus magnam inventore dolorem quidem culpa suscipit, quas consectetur est officiis sapiente. Quia, dolorum laboriosam reprehenderit sequi tempore, repellat illum voluptatibus, doloribus adipisci minima recusandae. Doloremque magni laudantium necessitatibus rem fuga numquam sunt quibusdam deserunt ratione adipisci. Magni, itaque nulla commodi totam distinctio non voluptatibus quis, eos harum sequi, earum architecto quibusdam. Vel, quaerat!</p>
+    <img src="pic3.jpg" alt="" width="80%">
+</div>
+<!-- home section end -->
+
+<!-- service section start -->
+    <div class="jumbotron bg-light mb-0" id="service" >
+        <h1 class="heading-font text-center"><u>Service </u></h1>
+        <div class="row">
+            <div class="col-md-4 border p-4">
+                <h1 class="heading-font">First service</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium qui ratione dolorum commodi hic, dolor deserunt magnam repellat amet libero et reprehenderit, tempore veniam repudiandae adipisci error odio, dolorem unde!</p> 
+            </div>
+            <div class="col-md-4 border p-4">
+                <h1 class="heading-font">First service</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium qui ratione dolorum commodi hic, dolor deserunt magnam repellat amet libero et reprehenderit, tempore veniam repudiandae adipisci error odio, dolorem unde!</p> 
+             </div>
+            <div class="col-md-4 border p-4">
+                <h1 class="heading-font">First service</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium qui ratione dolorum commodi hic, dolor deserunt magnam repellat amet libero et reprehenderit, tempore veniam repudiandae adipisci error odio, dolorem unde!</p> 
+             </div>
+        </div>
+    </div>
+
+    <!-- Clients section start -->
+    <div class="jumbotron bg-light mb-0" id="clients">
+        <h1 class="heading-font text-center" >Clients</h1>
+        <div class="carousel slide" id="my-clients" data-ride="carousel" data-interval="1500">
+            <div class="carousel-inner" id="social_icon">
+                <div class="carousel-item active text-center">
+                    <img src="rajiv_pic.jpg" alt="rajiv_pic">
+                    <h3>Rajiv kumar</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Culpa minus et esse quia dignissimos nesciunt sequi obcaecati beatae laudantium dolorem!</p>
+
+                    <a href="#"><i class="fa-brands fa-facebook" class="icon"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter" class="icon"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin" class="icon"></i></a>
+                </div>
+                <div class="carousel-item  text-center">
+                    <img src="rajiv_pic.jpg" alt="rajiv_pic">
+                    <h3>Rahul kumar</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing <br> Culpa minus et esse quia dignissimos nesciunt sequi obcaecati beatae laudantium dolorem!</p>
+
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <div class="carousel-item text-center">
+                    <img src="rajiv_pic.jpg" alt="rajiv_pic">
+                    <h3>Ramesh kumar</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Culpa minus et esse quia dignissimos nesciunt sequi obcaecati beatae laudantium dolorem!</p>
+
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+            </div> <!-- carousel inner end-->
+            <!-- Note :- jaha par carousel inner end hoga ohi per se button ka tag likhenge okey -->
+           <a href="#my-clients" role="button" class="carousel-control-prev" data-slide="prev">
+            <i class="fas fa-chevron-left text-dark" style="font-size: 30px;"></i>
+           </a>
+           
+           <a href="#my-clients" role="button" class="carousel-control-next" data-slide="next">
+            <i class="fas fa-chevron-right text-dark" style="font-size: 30px;"></i>
+           </a>
+
+        </div>
+    </div>
+
+    <!-- Clients section end -->
+
+    <!-- pricing section start -->
+    <div class="jumbotron bg-light mb-0" id="pricing">
+        <h1 class="heading-font text-center" >Pricing</h1>
+
+        <div class="row">
+            <div class="col-md-4 p-4">
+                <div class="card text-center ">
+                    <div class="card-header bg-primary text-white">
+                        <h3>Starter plan</h3>
+                    </div>
+                    <div class="card-body">
+                            <h3>10$/month</h3>
+                            <hr>
+                            <label>static apps</label>
+                            <hr>
+                            <label>Load Time Faster</label>
+                            <hr>
+                            <label>Admin Pannel</label>
+                            <hr>
+                            <label>No future Updates</label>
+                            <hr>
+                            <label>No customers supports</label>
+                            <hr>
+                            <label>Paid Maintenance</label>
+                    </div>
+                    <div class="card-footer bg-primary">
+                        <button class="btn">more info</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 p-4">
+                <div class="card text-center ">
+                    <div class="card-header bg-warning text-white">
+                        <h3>Starter plan</h3>
+                    </div>
+                    <div class="card-body">
+                            <h3>50$/month</h3>
+                            <hr>
+                            <label>static apps</label>
+                            <hr>
+                            <label>Load Time Faster</label>
+                            <hr>
+                            <label>Admin Pannel</label>
+                            <hr>
+                            <label>No future Updates</label>
+                            <hr>
+                            <label>No customers supports</label>
+                            <hr>
+                            <label>Paid Maintenance</label>
+                    </div>
+                    <div class="card-footer bg-warning">
+                        <button class="btn">more info</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 p-4">
+                <div class="card text-center ">
+                    <div class="card-header bg-danger text-white">
+                        <h3>Starter plan</h3>
+                    </div>
+                    <div class="card-body">
+                            <h3>100$/month</h3>
+                            <hr>
+                            <label>static apps</label>
+                            <hr>
+                            <label>Load Time Faster</label>
+                            <hr>
+                            <label>Admin Pannel</label>
+                            <hr>
+                            <label>No future Updates</label>
+                            <hr>
+                            <label>No customers supports</label>
+                            <hr>
+                            <label>Paid Maintenance</label>
+                    </div>
+                    <div class="card-footer bg-danger">
+                        <button class="btn">more info</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- pricing section end -->
+
+    <!-- contatct section start -->
+    <div class="jumbotron bg-light mb-0" id="contact">
+        <h1 class="heading-font text-center">Contact</h1>
+        <div class="row">
+            <div class="col-md-4 p-4">
+                <form>
+                    <div class="form-group">
+                    <label for="username">Enter your Name</label>
+                    <input type="text" id="username" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label for="phone">Enter Phone No.</label>
+                    <input type="number" id="phone" name="phone" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" class="form-control">
+                </div>
+
+                <button type="submit" class="btn btn-primary"> Send Us !</button>
+                </form>
+            </div>
+
+                <div class="col-md-4 p-4">
+                    <h4>Address</h4>
+                    <address> NSTI vidyanagar Hyderabad-500007</address>
+                    <h4>Mobile No.</h4>
+                    <address>1234567890, 0987654321</address>
+
+                    <h4>Email Id</h4>
+                    <address>rajiv@gmail.com</address>
+
+                </div>
+
+                <div class="col-md-4 p-4">
+                    <h4>Follow Me !</h4>
+                    <a href="#"><i class="fa-brands fa-facebook" class="icon"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter" class="icon"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin" class="icon"></i></a>
+                </div>
+            
+        </div>
+
+
+    </div>
+</body>
+</html>
